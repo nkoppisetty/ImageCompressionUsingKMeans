@@ -30,16 +30,13 @@ java Main <input-image> <k> <output-image>
 ```
 
 ## Output:
-Compressed images of Koala.jpg and Penguins.jpg using K values 2, 5, 10, 15 and 20
+Compressed images of Koala.jpg and Penguins.jpg using different K values:
 
-![Original Image](Penguins.jpg =250x250)
-<img src="Penguins.jpg" width="200" height="200">
-![Image after compression with K=2](outputs/Penguins_2.jpg =250x250)
-![Image after compression with K=15](outputs/Penguins_15.jpg =250x250)
+ <img src="Penguins.jpg" width="400" height="400"> <img src="outputs/Penguins_2.jpg" width="400" height="400">
+ <img src="outputs/Penguins_5.jpg" width="400" height="400"> <img src="outputs/Penguins_15.jpg" width="400" height="400"> 
 
-![Original Image](Koala.jpg =250x250)
-![Image after compression with K=2](outputs/Koala_2.jpg =250x250)
-![Image after compression with K=10](outputs/Koala_10.jpg =250x250)
+ <img src="Koala.jpg" width="400" height="400"> <img src="outputs/Koala_2.jpg" width="400" height="400">
+ <img src="outputs/Koala_10.jpg" width="400" height="400"> <img src="outputs/Koala_20.jpg" width="400" height="400">
 
 ## Prerequisites
 Java Version 9.0.1
