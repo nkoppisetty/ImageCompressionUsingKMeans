@@ -4,11 +4,13 @@ Implemented K-Means clustering algorithm to perform color quantization for image
 
 ![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/06cdd86ced397bbf6fad505b4c4d91fa2438b567)
 
-# K-Means Clustering
-K-means clustering is an optimization algorithm to find ?K? clusters in the given set of data points. Initially K random points from the data set are chosen as K cluster centroids. Then on basis of euclidean distance each point in the data set is assigned to a cluster and the centroids are changed to the mean of its assigned data points, this is done until convergence. There are two steps in k-means clustering algorithm:
+Using different K values, K-Means is applied to the images and a best choice of K is found by calculating the compression ratios of the images obtained after K-Means.
 
-a) Assignment step ? Each data point is assigned to the cluster whose center is nearest to it.
-b) Update step ? New means (centroids) are calculated from the data points assigned to the new clusters.
+# K-Means Clustering
+K-means clustering is an optimization algorithm to find K clusters in the given set of data points. Initially K random points from the data set are chosen as K cluster centroids. Then on basis of euclidean distance each point in the data set is assigned to a cluster and the centroids are changed to the mean of its assigned data points, this is done until convergence. There are two steps in k-means clustering algorithm:
+
+1. Assignment step: Each data point is assigned to the cluster whose center is nearest to it.
+2. Update step: New means (centroids) are calculated from the data points assigned to the new clusters.
 
 ## Getting Started:
 Step 1:  Change the directory to the src folder
