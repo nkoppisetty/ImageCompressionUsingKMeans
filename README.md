@@ -32,5 +32,13 @@ java Main <input-image> <k> <output-image>
 ## Output:
 Compressed images of Koala.jpg and Penguins.jpg using K values 2, 5, 10, 15 and 20
 
+![alt text](outputs/Penguins.jpg)
+![alt text](outputs/Penguins_2.jpg)
+![alt text](outputs/Penguins_15.jpg)
+
+![alt text](outputs/Koala.jpg)
+![alt text](outputs/Koala_2.jpg)
+![alt text](outputs/Koala_10.jpg)
+
 ## Prerequisites
 Java Version 9.0.1
