@@ -2,7 +2,7 @@
 
 Implemented K-Means clustering algorithm to perform color quantization for image compression without any loss of details. The size of each pixel in an image is of 3 bytes (RGB), with intensity of each color ranging from 0 to 255. The euclidian distance between two pixels is calculated using the below equation:
 
-![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/06cdd86ced397bbf6fad505b4c4d91fa2438b567)
+![Euclidian Distance](https://wikimedia.org/api/rest_v1/media/math/render/svg/06cdd86ced397bbf6fad505b4c4d91fa2438b567)
 
 Using different K values, K-Means is applied to the images and a best choice of K is found by calculating the compression ratios of the images obtained after K-Means.
 
@@ -32,13 +32,13 @@ java Main <input-image> <k> <output-image>
 ## Output:
 Compressed images of Koala.jpg and Penguins.jpg using K values 2, 5, 10, 15 and 20
 
-![alt text](outputs/Penguins.jpg)
-![alt text](outputs/Penguins_2.jpg)
-![alt text](outputs/Penguins_15.jpg)
+![Original Image](Penguins.jpg =250x250)
+![Image after compression with K=2](outputs/Penguins_2.jpg =250x250)
+![Image after compression with K=15](outputs/Penguins_15.jpg =250x250)
 
-![alt text](outputs/Koala.jpg)
-![alt text](outputs/Koala_2.jpg)
-![alt text](outputs/Koala_10.jpg)
+![Original Image](Koala.jpg =250x250)
+![Image after compression with K=2](outputs/Koala_2.jpg =250x250)
+![Image after compression with K=10](outputs/Koala_10.jpg =250x250)
 
 ## Prerequisites
 Java Version 9.0.1
