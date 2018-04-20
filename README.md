@@ -33,6 +33,7 @@ java Main <input-image> <k> <output-image>
 Compressed images of Koala.jpg and Penguins.jpg using K values 2, 5, 10, 15 and 20
 
 ![Original Image](Penguins.jpg =250x250)
+<img src="Penguins.jpg" width="200" height="200">
 ![Image after compression with K=2](outputs/Penguins_2.jpg =250x250)
 ![Image after compression with K=15](outputs/Penguins_15.jpg =250x250)
 
