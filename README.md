@@ -23,7 +23,7 @@ javac KMeans.java
 ```
 Step 3:  Run KMeans.java using the below parameters as command line arguments <br />
 - input-image: Input image path <br />
-- k: K value <br /> 
+- k: # of clusters <br /> 
 - output-image: Output image path <br />
 ```
 java Main <input-image> <k> <output-image>
